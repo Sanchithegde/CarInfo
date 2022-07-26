@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="193" max="-2" attributes="0"/>
+                      <Component id="HeadLabel" min="-2" pref="437" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="259" max="-2" attributes="0"/>
+                      <Component id="RegisterSubmit" min="-2" pref="293" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="154" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jumptologin" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="PasswordLabel" max="32767" attributes="0"/>
+                          <Component id="UsernameLabel" max="32767" attributes="0"/>
+                          <Component id="CarColourLabel" max="32767" attributes="0"/>
+                          <Component id="CarModelLabel" max="32767" attributes="0"/>
+                          <Component id="CarRegNoLabel" pref="218" max="32767" attributes="0"/>
+                          <Component id="PhoneLabel" max="32767" attributes="0"/>
+                          <Component id="AddressLabel" max="32767" attributes="0"/>
+                          <Component id="OwnerNameLabel" max="32767" attributes="0"/>
+                          <Component id="DOBLabel" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ownernameText" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Component id="FirstNameLabel" min="-2" pref="100" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="middleNameLabel" min="-2" pref="100" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="LastNameLabel" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="AddressText" max="32767" attributes="0"/>
+                          <Component id="numberText" max="32767" attributes="0"/>
+                          <Component id="carRegnoText" max="32767" attributes="0"/>
+                          <Component id="CarmodelText" max="32767" attributes="0"/>
+                          <Component id="CarColourText" max="32767" attributes="0"/>
+                          <Component id="UsernameText" max="32767" attributes="0"/>
+                          <Component id="PasswordText" max="32767" attributes="0"/>
+                          <Component id="DOBText" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Component id="HeadLabel" min="-2" pref="59" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="ownernameText" pref="35" max="32767" attributes="0"/>
+                  <Component id="OwnerNameLabel" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="FirstNameLabel" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="middleNameLabel" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="LastNameLabel" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="13" max="32767" attributes="0"/>
+                      <Component id="DOBText" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="DOBLabel" alignment="1" min="-2" pref="37" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="AddressText" pref="35" max="32767" attributes="0"/>
+                  <Component id="AddressLabel" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="numberText" pref="35" max="32767" attributes="0"/>
+                  <Component id="PhoneLabel" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="carRegnoText" pref="35" max="32767" attributes="0"/>
+                  <Component id="CarRegNoLabel" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="CarmodelText" pref="35" max="32767" attributes="0"/>
+                  <Component id="CarModelLabel" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="CarColourText" pref="35" max="32767" attributes="0"/>
+                  <Component id="CarColourLabel" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="UsernameText" pref="35" max="32767" attributes="0"/>
+                  <Component id="UsernameLabel" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="PasswordLabel" max="32767" attributes="0"/>
+                  <Component id="PasswordText" pref="35" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="RegisterSubmit" min="-2" pref="36" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jumptologin" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="HeadLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="36" style="3"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="REGISTER"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="OwnerNameLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="OWNER&apos;S NAME"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="DOBLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="DATE OF BIRTH"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ownernameText">
+    </Component>
+    <Component class="javax.swing.JLabel" name="FirstNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FIRST"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="middleNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="MIDDLE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LastNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LAST"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AddressLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ADDRESS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PhoneLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PHONE NUMBER"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CarRegNoLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CAR REGISTERATION NUMBER"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CarModelLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CAR MODEL"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CarColourLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CAR COLOUR"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="UsernameLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="USERNAME"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PasswordLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="PASSWORD"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="AddressText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="numberText">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="numberTextActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="carRegnoText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="CarmodelText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="CarColourText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="UsernameText">
+    </Component>
+    <Component class="javax.swing.JTextField" name="PasswordText">
+    </Component>
+    <Component class="javax.swing.JButton" name="RegisterSubmit">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="SUBMIT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RegisterSubmitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jumptologin">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SansSerif" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Already have an account. Click here."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jumptologinActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="DOBText">
+      <Properties>
+        <Property name="dateFormatString" type="java.lang.String" value="yyyy-MM-dd"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
